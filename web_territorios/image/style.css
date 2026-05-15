@@ -1,0 +1,153 @@
+body {
+    /*    arriba derecha abajo izquierda*/
+    margin: 40px 30px 20px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*display: flex;
+    flex-direction: column;*/
+    min-height: 100vh;
+}
+
+h1,h2{
+border-bottom: 1px solid gray;
+
+}
+section.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20em;
+    justify-content: center;
+    /*background-color: #333;*/
+    /*color: white;*/
+    padding: 10px 10px;
+    font-size: larger;
+}
+.header {
+    background-color: cornflowerblue;
+    /*color: white;*/
+    display: flex;
+    justify-content: flex-end;
+    padding: 14px 16px;
+    font-size: 1.5em;
+    /*text-align: center;*/
+}
+.header a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.header a:hover {
+    background-color: #ddd;
+    color: black;
+}
+img.escudo {
+    height: 200px;
+    border: 2px solid #000; /* Borde alrededor de la imagen */
+    border-radius: 50%;
+    
+}
+figure {
+    /*text-align: center;*/
+    display: inline-block;
+            border: 2px solid #000; /* Borde alrededor de la figura */
+            padding: 10px;
+            background-color:rgba(128, 128, 128, 0.327);
+            
+            
+}
+table {
+    width: auto;
+    border-collapse: collapse;
+}
+thead {
+    background-color: gray;
+    color: #fff;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tbody tr:nth-child(odd) {
+    background-color: #e6e6e6;
+}
+tbody tr:hover {
+    background-color: #ccc;
+}
+figcaption {
+    max-width: 200px; /* Debe coincidir con el ancho de la imagen */
+    /*margin: 0 auto;*/
+    padding-top: 10px;
+    word-wrap: break-word; /* Asegura que el texto se ajuste al ancho */
+   
+}
+
+img.table {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.footer {
+    background-color:  cornflowerblue;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: auto;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    display: inline-block;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer .social-icons a {
+    margin: 0 10px;
+}
+.footer .social-icons a {
+    margin: 0 10px;
+}
+.footer .social-icons a i {
+    margin-right: 8px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 20px;
+    padding: 20px;
+    /*flex: 1;*/
+    background-color: #f4f4f4;
+}
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.card-content {
+    padding: 16px;
+}
+.card-title {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+.card-description {
+    font-size: 1em;
+    color: #666;
+    margin: 0;
+}
